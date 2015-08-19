@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Wolfgang Stöttinger - Photographer & Front-End Ninja</title>
+
+    <!-- Include JQery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- END Include JQery -->
+
+    <!-- Include Bootstrap - source: http://getbootstrap.com/ -->
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- End Include Bootstrap -->
+    
+    <!-- Include Google Web Fonts -->
+      <link href="http://fonts.googleapis.com/css?family=Oxygen:400,300|Roboto:100" rel="stylesheet"> <!-- since I codpied this from Google Fonts, I don't believe that the vertical bar | is not allowed in the URL, that's why I prefer to leave it. Furthermore, the validator won't even validate it, when replacing the | with &#124;. Any suggestions? I'd rather not create two separate links, one for each font, to keep http requests at minimum -->
+    <!-- END Include Google Web Fonts -->
+    
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="container">
+    <header class="content">
+      <div class="row">
+        <div class="col col-lg-2 col-md-2 col-sm-2 col-xs-12">
+          <a href="index.html"><img src="images/logo.png" alt="Logo" class="img img-responsive logo"/></a>
+        </div>
+        <div class="col col-lg-10 col-md-10 col-sm-10 col-xs-12">
+          <h1 class="uppercase">Wolfgang Stöttinger</h1>
+          <span class="uppercase bold">Photographer & Front-End Ninja</span>
+        </div>
+      </div>
+    </header>
+        
+    <nav class="content nav-container">
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Work&nbsp;<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="architecture.html">Architecture</a></li>
+              <li><a href="jewelry.html">Jewelry</a></li>
+              <li><a href="portraits.html">Portraits</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="fa fa-bars"></i>
+        </button>
+      </div>
+      <h2>Portraits</h2>
+    </nav>
+       
+    <div class="content">
+      <div class="row">
+        <div class="col col-lg-12">
+          <a href="index.html"><img src="images/portraits.jpg" alt="Portraits Image" class="img img-responsive"/></a>
+        </div>
+      </div>
+    </div>
+    <footer class="content">
+      <div class="row">
+        <div class="col col-lg-12">
+          <p>(c) Wolfgang Stöttinger 2015</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

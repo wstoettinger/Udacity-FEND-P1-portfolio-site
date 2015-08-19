@@ -1,0 +1,114 @@
+body {
+  font-family: "Oxygen", sans-serif; /* single quotes are used by Google Fonts, I didn't notice when copying */
+  font-weight: 300;
+  background-color: white;
+  color: #676857;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 100;
+}
+
+h2 {
+  color: #bcbbbb;
+  padding-left: 0.3em;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+header {
+  padding: 1em 8px 1em 8px;
+  text-align: right;
+  border-bottom: 5px solid #bcbbbb;
+}
+
+footer {
+  font-size: 10px;
+}
+
+.logo {
+  max-height: 100px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    max-height: 150px;
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.content {
+  max-width: 1024px;
+  padding-top: 1em; /* here a shorthand property would overwrite the padding-left and padding-right of the header element, that's why I didn't use it */
+  padding-bottom: 1em;
+  margin: 0 auto;
+}
+
+body>div.content {
+  margin-top: 40px;
+  padding-top: 0em;
+}
+
+a:focus,
+a:hover {
+  color: #23527c;
+  text-decoration: none;
+}
+
+a {
+  color: #676857;
+  text-decoration: none;
+}
+
+/* adapted from bootstrap: */
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+  color: #fff;
+  background-color: #676857;
+}
+
+.nav-container {
+  padding: 0.3em 0 0.3em 0;
+}
+
+nav h2 {
+  float: left;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  margin: 8px 0 0 6px;
+}
+
+.navbar-header {
+  float: right;
+}
+  
+@media (min-width: 768px) {
+  #navbar-collapse {
+    float: right;
+  }
+
+  body>div.content {
+    margin-top: 50px;
+  }
+}
